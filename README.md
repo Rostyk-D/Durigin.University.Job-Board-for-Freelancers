@@ -21,17 +21,17 @@ FreelanceHub is a comprehensive platform designed to connect freelancers with di
 Add your task decomposition here.
 
 Week 1:
-- Implement feature: User Registration and Login
-- Set up Azure deployment environment
-- Write Getting Started documentation
-- Create initial project structure
-- Set up CI/CD pipeline for automated deployment
+- Implement feature: User Registration and Login✔️
+- Set up Azure deployment environment✔️
+- Write Getting Started documentation✔️
+- Create initial project structure✔️
+- Set up CI/CD pipeline for automated deployment✔️
 
 Week 2:
-- Implement feature: Profile Creation and Management
-- Set up Google OAuth 2.0 authentication
-- Design architecture diagram
-- Define project tasks decomposition
+- Implement feature: Profile Creation and Management✔️
+- Set up Google OAuth 2.0 authentication✔️
+- Design architecture diagram✔️
+- Define project tasks decomposition✔️
 - Write unit tests for user authentication module
 
 Week 3:
