@@ -8,6 +8,9 @@ https://t.me/Roszyk
 #  Source To Site
 https://freelancehub.azurewebsites.net
 
+# Design architecture diagram
+https://lucid.app/lucidspark/f839e32b-f94b-4110-b878-1e6780d6f76c/edit?viewport_loc=-43%2C259%2C2967%2C1277%2C0_0&invitationId=inv_4a958e4a-3e89-425b-a7e7-1821db5b6e6b
+
 # Getting Started
 Add your getting started here.
 
