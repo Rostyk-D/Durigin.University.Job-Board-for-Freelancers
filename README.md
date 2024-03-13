@@ -28,7 +28,7 @@ Week 1:
 - Set up CI/CD pipeline for automated deployment✔️
 
 Week 2:
-- Implement feature: Profile Creation and Management✔️
+- Implement feature: Profile Creation and Management
 - Set up Google OAuth 2.0 authentication✔️
 - Design architecture diagram✔️
 - Define project tasks decomposition✔️
