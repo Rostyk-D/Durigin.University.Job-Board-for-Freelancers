@@ -12,13 +12,12 @@ https://freelancehub.azurewebsites.net
 https://lucid.app/lucidspark/f839e32b-f94b-4110-b878-1e6780d6f76c/edit?viewport_loc=-43%2C259%2C2967%2C1277%2C0_0&invitationId=inv_4a958e4a-3e89-425b-a7e7-1821db5b6e6b
 
 # Getting Started
-Add your getting started here.
+Welcome to FreelanceHub, your go-to platform for connecting with freelance opportunities across different industries. Whether you're a freelancer looking for projects or a client seeking skilled professionals, FreelanceHub has you covered.
 
 # Project Documentation
 FreelanceHub is a comprehensive platform designed to connect freelancers with diverse freelance opportunities across various industries. It provides a user-friendly interface for freelancers to browse, apply, and manage their freelance projects efficiently.
 
 # Project Task Decomposition
-Add your task decomposition here.
 
 Week 1:
 - Implement feature: User Registration and Login✔️
