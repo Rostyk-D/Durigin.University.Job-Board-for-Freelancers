@@ -14,7 +14,7 @@ https://lucid.app/lucidspark/f839e32b-f94b-4110-b878-1e6780d6f76c/edit?viewport_
 # Getting Started
 Welcome to FreelanceHub, your go-to platform for connecting with freelance opportunities across different industries. Whether you're a freelancer looking for projects or a client seeking skilled professionals, FreelanceHub has you covered.
   # How to Get Started 
-  1. Sign Up: Visit our website at [FreelanceHub](https://freelancehub.azurewebsites.net) and create your account. Simply click on the "Sign Up" button and follow the prompts to register. Make sure to verify your email address to activate your account.
+  1. Sign Up: Visit our website at [FreelanceHub](https://freelancehub.azurewebsites.net) and create your account. Simply click on the "Sign Up" button and follow the prompts to register.
   2.
 
 # Project Documentation
