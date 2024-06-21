@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using FreelanceHub.Models;
 using Microsoft.AspNetCore.Identity;
 
 namespace FreelanceHub.Areas.Identity.Data;
@@ -10,4 +7,3 @@ namespace FreelanceHub.Areas.Identity.Data;
 public class FreelanceHubUser : IdentityUser
 {
 }
-

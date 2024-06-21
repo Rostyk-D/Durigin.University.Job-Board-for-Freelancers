@@ -37,10 +37,10 @@ Week 2:
 - Write unit tests for user authentication module
 
 Week 3:
-- Implement feature: Job Listings
+- Implement feature: Job Listings✔️
 - Integrate search and filter functionality for job listings
 - Develop infrastructure diagram
-- Define user roles and permissions
+- Define user roles and permissions✔️
 - Write unit tests for job listing retrieval
 
 Week 4:

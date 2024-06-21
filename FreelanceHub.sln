@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreelanceHub", "FreelanceHub\FreelanceHub.csproj", "{CBA78185-822A-496A-822B-BD62EE52FD6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreelanceHub", "FreelanceHub\FreelanceHub.csproj", "{CBA78185-822A-496A-822B-BD62EE52FD6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

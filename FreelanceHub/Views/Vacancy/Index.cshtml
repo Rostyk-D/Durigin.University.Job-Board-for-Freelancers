@@ -1,0 +1,31 @@
+﻿<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>UserId</th>
+            <th>Teg</th>
+            <th>Submission</th> <!-- Виправлено "Submis" на "Submission" -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var vacancy in Model)
+        {
+            <tr>
+                <td>@vacancy.Title</td>
+                <td>@vacancy.Description</td>
+                <td>@vacancy.UserName</td>
+                <td>@vacancy.TegLanguage</td>
+                <td>
+                    <a href="@Url.Action("Apply", "Vacancy", new { id = vacancy.Id })">Submission</a>
+                    <!-- Форма подання заявки -->
+                    <form asp-action="Apply" method="post">
+                        <input type="hidden" name="VacancyId" value="@vacancy.Id" /> <!-- Передача ідентифікатора вакансії -->
+                        <input type="hidden" name="UserId" value="@User.Identity.Name" /> <!-- Передача ідентифікатора поточного користувача -->
+                        <!-- Решта коду форми... -->
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

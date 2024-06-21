@@ -1,0 +1,22 @@
+﻿@using System.Security.Claims
+@model FreelanceHub.Models.Vacancy
+
+<form asp-controller="Vacancy" asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TegLanguage"></label>
+        <input asp-for="TegLanguage" class="form-control" />
+        <span asp-validation-for="TegLanguage" class="text-danger"></span>
+    </div>
+    <input type="hidden" name="UserId" value="@User.FindFirstValue(ClaimTypes.NameIdentifier)" />
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>

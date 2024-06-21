@@ -70,7 +70,7 @@ namespace FreelanceHub.Areas.Identity.Pages.Account.Manage
 
             Input = new InputModel
             {
-                PhoneNumber = phoneNumber
+                PhoneNumber = phoneNumber,
             };
         }
 

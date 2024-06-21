@@ -1,6 +1,17 @@
 ﻿@{
     ViewData["Title"] = "Privacy Policy";
+
+    // Перевірка, чи має поточний користувач роль "Admin"
+    var isAdmin = User.IsInRole("Admin");
 }
+
 <h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+@if (isAdmin)
+{
+    <p>Use this page to detail your site's privacy policy.</p>
+}
+else
+{
+    <p>Access to this page is restricted.</p>
+}

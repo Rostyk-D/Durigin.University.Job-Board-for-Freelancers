@@ -1,0 +1,23 @@
+﻿
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>UserId</th>
+            <th>Teg</th>
+            <th>Submission</th> <!-- Виправлено "Submis" на "Submission" -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ApplyViewmodels in Model)
+        {
+            <tr>
+                <td>@ApplyViewmodels.Title</td>
+                <td>@ApplyViewmodels.Description</td>
+                <td>@ApplyViewmodels.UserName</td>
+                <td>@ApplyViewmodels.TegLanguage</td>
+            </tr>
+        }
+    </tbody>
+</table>
